@@ -107,7 +107,6 @@ button:hover{
 
   /* responsividade */
 
-  /* 320 px - 480px = mobile */
 
   @media (max-width: 1440px) {
     .cardlogin{
