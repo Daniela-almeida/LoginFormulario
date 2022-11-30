@@ -18,14 +18,19 @@
         <input class="inputs" type="email" id="email" name="email" autocomplete="off" placeholder="insira seu email:">
         
         <label class="form-title" for="password">Senha:</label>
-        <input class="inputs" type="password" id="pass" name="pass" autocomplete="off" placeholder="insira sua senha:"> <br>
+        <input class="inputs" type="password" id="password" name="password" autocomplete="off" placeholder="insira sua senha:"> <br>
 
+        <label  class="form-title" for="passwordConfirmation">Confirme sua senha:</label>
+        <input  class="inputs" 
+          type="password"
+          name="passwordConfirmation"
+          id="passwordConfirmation" placeholder="confirme sua senha"
+        />
        
-        <input class="checkbox" type="checkbox">
-        <label class="remember" for="check">Me manter conectado
-        </label>
+       
+
         <p class="forgot-pass">Esqueceu a senha?</p>
-        <button>Enviar</button>
+        <button onclick="register(this.parentNode)">Enviar</button>
        </form>
       
     </div>
@@ -33,6 +38,6 @@
 </div>
 </div>
 
-
+<script src="./js/index.js"></script>
 </body>
 </html>
